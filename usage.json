@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/xentra-identity",
+  "packageVersion": "0.2.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/xentra-identity",
+  "usageRepository": "https://github.com/x12i-sdk/xentra-identity",
+  "sourceRepository": "https://github.com/x12i/xentra",
+  "sourceCommit": "004372e6695509bf2e95d2e4e53d4534e81dd312",
+  "sourcePackageDirectory": "packages/identity",
+  "example": {
+    "title": "Implement a typed identity-verification port in a consuming application",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validationScope": "consumer-typecheck-and-local-fixture",
+    "typedSource": "src/consumer.ts",
+    "validatedAt": "2026-10-24T14:37:45.219007+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "f2182fa4df79cf83c287e37e8a18ef891a68454c09b420ec9dfc818bab84c35d",
+    "manifestSha256": "78641c003793e57c8c81525c6fd58bcb06b9115f5fdf317e4571edb1dfc3d3ea"
+  },
+  "validationFiles": {
+    "src/consumer.ts": "596539dd583af4cb21b7c2a13425a92c4772030e304a1f9a44f4ae0afc9c5af0",
+    "src/index.mjs": "f2182fa4df79cf83c287e37e8a18ef891a68454c09b420ec9dfc818bab84c35d"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "xentra-identity-usage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Usage example for @x12i/xentra-identity: implement a typed identity-verification port in a consuming application.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "check": "node --check src/index.mjs"
+  },
+  "dependencies": {
+    "@x12i/xentra-identity": "0.2.0",
+    "typescript": "5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x12i-sdk/xentra-identity.git"
+  },
+  "homepage": "https://www.npmjs.com/package/@x12i/xentra-identity"
+}
